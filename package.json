@@ -1,8 +1,9 @@
 {
   "name": "ankit",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
+    "dev" : "nodemon src/Appp.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -13,5 +14,8 @@
   ],
   "author": "Ankit Dahake",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
